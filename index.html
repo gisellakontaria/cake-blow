@@ -2,29 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Candle Blow</title>
+    <title>Happy Birthday Brandon!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.cdnfonts.com/css/birds-of-paradise-personal-use" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   </head>
   <body>
-    <div class="candle-count-display">
-      Candles on the Cake: <span id="candleCount">0</span>
+
+    <!-- Card scene: cover flips open to reveal the inside -->
+    <div class="card-scene">
+
+      <!-- INSIDE (always rendered beneath the cover) -->
+      <div class="card-inside">
+        <div class="birthday-title">It's Bebo's Day 🎂</div>
+        <div class="instruction">Blow into the 🎤 to put out the candles!</div>
+        <div class="cake-wrapper">
+          <div class="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="photo-topper">
+              <div class="party-hat">
+                <div class="hat-pom"></div>
+                <div class="hat-cone"></div>
+                <div class="hat-brim"></div>
+              </div>
+              <img src="brandon_bordered.png" class="cake-photo" alt="Brandon" />
+              <div class="photo-stand"></div>
+            </div>
+          </div>
+        </div>
+        <div class="candle-count-display">
+          🕯️ <span id="candleCount">24</span> candles remaining
+        </div>
+        <div class="love-note">Love, Sella 🌸</div>
+      </div>
+
+      <!-- COVER (flips open on click) -->
+      <div class="card-cover" id="cardCover">
+        <div class="cover-content">
+          <div class="cover-emoji">🎉 🎈 🎊</div>
+          <div class="cover-title">Happy Birthday</div>
+          <div class="cover-name">Brandon!</div>
+          <div class="cover-hint">tap to open</div>
+        </div>
+      </div>
+
     </div>
-    <div class="cake">
-      <div class="plate"></div>
-      <div class="layer layer-bottom"></div>
-      <div class="layer layer-middle"></div>
-      <div class="layer layer-top"></div>
-      <div class="icing"></div>
-      <div class="drip drip1"></div>
-      <div class="drip drip2"></div>
-      <div class="drip drip3"></div>
+
+    <!-- Celebration overlay -->
+    <div class="celebration" id="celebration">
+      <div class="wish-text">🌟 Make a Wish! 🌟</div>
     </div>
+
+    <!-- Pre-loaded hidden YouTube player -->
+    <div id="ytplayer" style="position:fixed;width:1px;height:1px;bottom:0;right:0;border:0;"></div>
+
     <script src="script.js"></script>
   </body>
 </html>

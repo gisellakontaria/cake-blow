@@ -23,14 +23,14 @@ The cake design was adapted from Fazlur Rahman's creation on CodePen ([View Orig
 
 ## Accessing the Project
 
-To experience the Interactive Birthday Cake, visit the GitHub Pages link: [Interactive Birthday Cake](https://sherryuser.github.io/cake-blow/)
+To experience the Interactive Birthday Cake, visit the GitHub Pages link: [Interactive Birthday Cake](https://gisellakontaria.github.io/cake-blow/)
 
 ## How to Use
 
 1. Go to the provided GitHub Pages link.
-2. Allow microphone access.
-3. Click on the cake to add candles.
-4. Blow into your device to blow out the candles.
+2. Allow microphone access when prompted.
+3. Blow into your device to blow out all 24 candles!
+4. Once all candles are out, make a wish! 🌟
 
 ## Technologies
 
